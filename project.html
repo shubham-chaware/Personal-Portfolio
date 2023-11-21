@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="Project1(1).css">
+    <script src="https://kit.fontawesome.com/c29e48dc5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="continar" >
+        <nav>
+            <img src="/download-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text" >
+            <div class="hedar">
+                <img src="/image6_project.png">
+            </div>
+          <p>SOFTWARE DEVELOPER</p>
+          <h1>Hi, I'm <span>Shubham</span><br>Chaware From India</h1>
+        </div>
+    </div>
+
+  <!-- -------------about-------->
+  <div id="about">
+      <div class="continar">
+        <div class="row">
+          <div class="about-col1">
+            <img src="/WhatsApp Image 2023-10-16 at 1.32.31 PM.jpeg">
+          </div>
+          <div class="about-col2">
+            <h1 class='sub-title'>About Me</h1>
+            <p>I have proficiency in C/C++,and I am familiar with Java and python. I have worked on HTML, CSS, JavaScript. I have
+              studied Database management system, Operating system, computer networks, object oriented programming.</p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>App Development</span><br>Building Web/App interfaces</li>
+                <li><span>Back-End Development</span><br>Web Back-End Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>06/2023-11/2023</span><br>C/C++ with Data Structure On LeetCode.</li>
+                <li><span>02/2023-05/2023</span><br>Internship At Splendent Infotech PVT LTD.</li>
+                <li><span>09/2022-09/2022</span><br>MySQL Training At Spokan Tutorial IIT Bombay.</li>
+                <li><span>10/2022-10/2022</span><br>Java Programming On Udemy.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br>BE from Bapurao Deshmukh College Of Engineering</li>
+                <li><span>2019</span><br>12th Yashwant Junior College</li>
+                <li><span>2017</span><br>10th From Yashwant High School</li>
+              </ul>
+            </di>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------services------ -->
+  <div id="Services">
+    <div class="continar">
+      <h1 class='sub-title'>My Services</h1>
+      <div class="Services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design.</p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+       </div>
+       <div>
+        <i class="fa-sharp fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>In digital design, user interface (UI) refers to the interactivity, look, and feel of a product screen or web page, while user experience (UX) covers a user's overall experience with the product or website.</p>
+          <a href="https://en.wikipedia.org/wiki/User_experience_design#:~:text=Unlike%20user%20interface%20design%2C%20which,brand%20perception%2C%20and%20overall%20performance.">Learn more</a>
+     </div>
+     <div>
+      <i class="fa-brands fa-app-store"></i>
+      <h2>App Design</h2>
+      <p>The main reason that mobile app design is so important to your app's success is that it has a dramatic effect on your app's user experience. The way your app looks and moves plays a critical role in the way a user feels when interfacing.</p>
+        <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+   </div>
+      </div>
+    </div>
+  </div>
+ <!-- -----------Portfolio------- -->
+  <div id="Portfolio">
+     <div class="continar">
+      <h1 class='sub-title'>My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="/work-1.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minima recusandae quaerat aliquid distinctio
+              eveniet quas laboriosam! Sint, quo quod!</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div> 
+        <div class="work">
+          <img src="/work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minima recusandae quaerat aliquid distinctio
+              eveniet quas laboriosam! Sint, quo quod!</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div> 
+        <div class="work">
+          <img src="/work-3.png">
+          <div class="layer">
+            <h3>Online Food Ordering App</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minima recusandae quaerat aliquid distinctio
+              eveniet quas laboriosam! Sint, quo quod!</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+        <a href="#" class="btn">See more</a>
+     </div>
+  </div>
+  <!-- ---------Contact--- -->
+
+  <div id="contact">
+    <div class="continar">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> chawares26@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> +918421069233</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/shubhamchaware?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/shubham.chaware.1297?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/its_._shubham_._?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-git-square"></i></a>
+          </div>
+          <a href="https://drive.google.com/file/d/13rAKEkFFpGl-ERXHGNjXSVp4863BA87i/view?usp=drivesdk" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright @ Shubham. Made With <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+  </div>
+<script src="Script.js"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzxMu8P2SxCRTSnif-U4SCJhfL1n7Yw6T-OSmvGZM4xLBnSgge8J7_RMOvlmPcuK2GD/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg,innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
